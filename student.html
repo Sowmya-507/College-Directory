@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Interface</title>
+    <link rel="stylesheet" href="student.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+        integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1 align="center">Student Profile</h1>
+        <div id="profileInfo">
+          <div id="profile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>Profile:</p>
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfKrVV1UEnw0p2Rg02dYhn2Qft2hIeY3QmhQ&s">
+                        <p>Name: Sowmya</p>
+                        <p>Contact Details:9876054321</p>
+                        <h3>Academic Information</h3>
+                        <ul>
+                            <li>Courses: CSE</li>
+                            <li>Grades: A+</li>
+                            <li>Attendance:80%</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <p>Profile:</p>
+                        <img height="245"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdnr4UPXwY7Aar0RE_xK5D9GWSD8HnF70zhg&s">
+                        <p>Name: Ashii</p>
+                        <p>Contact Details:9876054320</p>
+                        <h3>Academic Information</h3>
+                        <ul>
+                            <li>Courses: CSE AI</li>
+                            <li>Grades: A</li>
+                            <li>Attendance:89%</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <p>Profile:</p>
+                        <img height="245"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfPss-mi22W-FBLcfnaZ9uaIOLd55LiwA4JGrzAPNJ5RN2fGAtG0bOUMC-3MhocJqkCFk&usqp=CAU">
+                        <p>Name: Priyanka</p>
+                        <p>Contact Details:9876054329</p>
+                        <h3>Academic Information</h3>
+                        <ul>
+                            <li>Courses: ECE</li>
+                            <li>Grades: A</li>
+                            <li>Attendance:82%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Profile:</p>
+                    <img
+                        src="data:image/png;base64,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">
+                    <p>Name: Nikitha</p>
+                    <p>Contact Details:9876054325</p>
+                    <h3>Academic Information</h3>
+                    <ul>
+                        <li>Courses: CSE</li>
+                        <li>Grades: A1</li>
+                        <li>Attendance:85%</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p>Profile:</p>
+                    <img height="250"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzKVwiLkBW1YLQndvlEilQvmjf-YlYJr5OLzsMNPCNMiw2LRRG5BdFOSnDJHsTEnuB8Fk&usqp=CAU">
+                    <p>Name: Vishnu</p>
+                    <p>Contact Details:9876054329</p>
+                    <h3>Academic Information</h3>
+                    <ul>
+                        <li>Courses: EEE</li>
+                        <li>Grades: A2</li>
+                        <li>Attendance:87%</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p>Profile:</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0KzPM3A418xgsJoPZyOqD6yklIBl_S-ngqA&s">
+                    <p>Name: Jhanu</p>
+                    <p>Contact Details:9876054323</p>
+                    <h3>Academic Information</h3>
+                    <ul>
+                        <li>Courses:MECH</li>
+                        <li>Grades: A1</li>
+                        <li>Attendance:90%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+        
+        <h2>Search for Other Students</h2>
+        <div id="searchContainer">
+            <input type="text" id="searchInput" placeholder="Search by name, department, or year">
+            <button onclick="searchStudents()">Search</button>
+        </div>
+        <ul id="studentList">
+            <!-- Search results will be dynamically inserted here -->
+        </ul>
+
+        <h2>Contact Faculty Advisors</h2>
+            <table  class="my-table">
+              <tr>
+              <th>Name</th>
+              <th>Contact Information</th><br>
+              <th>Department</th>
+              </tr>
+                <tr>
+                  <td>Mahe</td>
+                  <td>9495537891</td>
+                  <td>Computer Science</td>
+                </tr>
+                <tr>
+                    <td>VishnuReddy</td>
+                    <td>9495137850</td>
+                    <td>Mathematics</td>
+                  </tr>
+            </table>
+    </div>
+    <script src="student.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,36 @@
+.signup-container {
+	width: 300px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.signup-container label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.signup-container input[type="text"], .signup-container input[type="email"], .signup-container input[type="password"] {
+	width: 95%;
+	height: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn{
+	background-color:green;
+    padding:10px;
+    height:150px;
+    width:150px;
+    margin-left: 100px;
+	text-decoration: none;
+}

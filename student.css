@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  #searchContainer {
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    width: 300px;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  table,th,td,tr{
+    width:1500px;
+    padding:5px;
+    margin-left: 30px;
+  }
